@@ -38,7 +38,6 @@ if response.status_code == 200:
         print(f"Average CO2: {average_co2:.2f} ppm")
         print(f"Threshold (+10%): {threshold:.2f} ppm")
         print(f"Is CO2 normal? {is_co2_normal}")
-        print(datetime.datetime.now())
 
     else:
         print("'SCD41_CO2_value' attribute not found in response.")
